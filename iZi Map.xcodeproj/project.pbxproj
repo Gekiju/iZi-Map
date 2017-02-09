@@ -327,6 +327,7 @@
 				AF3485771E4CDE5E0069145E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

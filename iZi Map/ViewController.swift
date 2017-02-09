@@ -16,6 +16,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
      Scene views importation.
      */
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var saveButton: UIButton!
     
     let locationManager = CLLocationManager()
     
