@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3485671E4CDE5E0069145E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3485661E4CDE5E0069145E /* AppDelegate.swift */; };
+		AF3485691E4CDE5E0069145E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3485681E4CDE5E0069145E /* ViewController.swift */; };
+		AF34856C1E4CDE5E0069145E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34856A1E4CDE5E0069145E /* Main.storyboard */; };
+		AF34856E1E4CDE5E0069145E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34856D1E4CDE5E0069145E /* Assets.xcassets */; };
+		AF3485711E4CDE5E0069145E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34856F1E4CDE5E0069145E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3485631E4CDE5E0069145E /* iZi Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZi Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3485661E4CDE5E0069145E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3485681E4CDE5E0069145E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF34856B1E4CDE5E0069145E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF34856D1E4CDE5E0069145E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF3485701E4CDE5E0069145E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF3485721E4CDE5E0069145E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3485601E4CDE5E0069145E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF34855A1E4CDE5E0069145E = {
+			isa = PBXGroup;
+			children = (
+				AF3485651E4CDE5E0069145E /* iZi Map */,
+				AF3485641E4CDE5E0069145E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3485641E4CDE5E0069145E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3485631E4CDE5E0069145E /* iZi Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3485651E4CDE5E0069145E /* iZi Map */ = {
+			isa = PBXGroup;
+			children = (
+				AF3485661E4CDE5E0069145E /* AppDelegate.swift */,
+				AF3485681E4CDE5E0069145E /* ViewController.swift */,
+				AF34856A1E4CDE5E0069145E /* Main.storyboard */,
+				AF34856D1E4CDE5E0069145E /* Assets.xcassets */,
+				AF34856F1E4CDE5E0069145E /* LaunchScreen.storyboard */,
+				AF3485721E4CDE5E0069145E /* Info.plist */,
+			);
+			path = "iZi Map";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3485621E4CDE5E0069145E /* iZi Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3485751E4CDE5E0069145E /* Build configuration list for PBXNativeTarget "iZi Map" */;
+			buildPhases = (
+				AF34855F1E4CDE5E0069145E /* Sources */,
+				AF3485601E4CDE5E0069145E /* Frameworks */,
+				AF3485611E4CDE5E0069145E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iZi Map";
+			productName = "iZi Map";
+			productReference = AF3485631E4CDE5E0069145E /* iZi Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF34855B1E4CDE5E0069145E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "SUPINFO International University";
+				TargetAttributes = {
+					AF3485621E4CDE5E0069145E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = STG7DKQW7M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF34855E1E4CDE5E0069145E /* Build configuration list for PBXProject "iZi Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF34855A1E4CDE5E0069145E;
+			productRefGroup = AF3485641E4CDE5E0069145E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3485621E4CDE5E0069145E /* iZi Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3485611E4CDE5E0069145E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3485711E4CDE5E0069145E /* LaunchScreen.storyboard in Resources */,
+				AF34856E1E4CDE5E0069145E /* Assets.xcassets in Resources */,
+				AF34856C1E4CDE5E0069145E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF34855F1E4CDE5E0069145E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3485691E4CDE5E0069145E /* ViewController.swift in Sources */,
+				AF3485671E4CDE5E0069145E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF34856A1E4CDE5E0069145E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF34856B1E4CDE5E0069145E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF34856F1E4CDE5E0069145E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3485701E4CDE5E0069145E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3485731E4CDE5E0069145E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3485741E4CDE5E0069145E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3485761E4CDE5E0069145E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STG7DKQW7M;
+				INFOPLIST_FILE = "iZi Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supinfo.iZi-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF3485771E4CDE5E0069145E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = STG7DKQW7M;
+				INFOPLIST_FILE = "iZi Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supinfo.iZi-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF34855E1E4CDE5E0069145E /* Build configuration list for PBXProject "iZi Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3485731E4CDE5E0069145E /* Debug */,
+				AF3485741E4CDE5E0069145E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3485751E4CDE5E0069145E /* Build configuration list for PBXNativeTarget "iZi Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3485761E4CDE5E0069145E /* Debug */,
+				AF3485771E4CDE5E0069145E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF34855B1E4CDE5E0069145E /* Project object */;
+}
