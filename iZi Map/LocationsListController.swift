@@ -21,7 +21,7 @@ class LocationsListController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "locationCell")!
         cell.textLabel?.text = "A random location"
-        cell.detailTextLabel?.text = "fuck off"
+        cell.detailTextLabel?.text = "location"
         return cell
     }
 }
